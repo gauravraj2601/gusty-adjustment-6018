@@ -201,7 +201,7 @@ const Login = () => {
                 </FormControl>{" "}
                 <br />
                 <br />
-                <Button type="submit" bg="teal" color="white" width="300px" _hover={{color:"teal", bg:"white", variant:"outline"}}>
+                <Button type="submit" bg="teal" color="white" width="10rem" _hover={{color:"teal", bg:"white", variant:"outline"}}>
                   Login
                 </Button>{" "}
                 <br />
@@ -275,7 +275,7 @@ const Login = () => {
                     <br />
                   </div>
                 )}
-                <Button type="submit" bg="teal" color="white" width="270px" _hover={{color:"teal", bg:"white", variant:"outline"}}>
+                <Button type="submit" bg="teal" color="white" width="10rem" _hover={{color:"teal", bg:"white", variant:"outline"}}>
                   {showLogin ? "Login" : "Register"}
                 </Button>{" "}
                 <br /> <br />
